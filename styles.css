@@ -5,6 +5,7 @@
     display: flex;
     flex-direction:column;
     height: 600px;
+
 }
 .Header {
     display: flex;
@@ -15,7 +16,7 @@
     font-size: 24px;
     color: #f9faf8;
     font-family: "Audiowide", sans-serif;
-    padding-left:24px;  
+    padding-left:24px; 
     
 }
 .Header_Links {
@@ -66,6 +67,7 @@
     width: 100px;
     opacity: 0.9;
     display: block;
+    border-radius: 15px 15px 15px 15px;
    
 }
 .Button:hover {
@@ -74,18 +76,166 @@
     opacity: 1;
 }
 .image-placeholder {
+   
     background-color: #eee;
     height:300px;
     width:800px;
     margin-left:auto;
     
+    
 }
 .image-placeholder > h4 {
+    
     text-align:center;
     font-size:32px;
-    align-self:center;
     width:100%;
 }
 .second-flex {
+    padding-left: 60px;
+    padding-right: 60px;
     display: flex;
+    flex-direction:column;
+    height: 600px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.Title-Card {
+    padding-bottom: 80px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    font-family: "Audiowide", sans-serif;
+    align-self:center;
+}
+.Panel-Container {
+    display:flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Box {
+    
+    border: 4px solid rgb(55, 110, 228);
+    height: 150px;
+    width: 150px;
+    text-align:center;
+    border-radius: 15px 15px 15px 15px;
+   
+}
+.text-caption {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right:25px;
+}
+.Third-Flex {
+    background-color:lightgray;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction:column;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.Quote-Text {
+    font-size: 36px;
+    font-style:  italic;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937
+}
+.SubQuote-Text {
+    font-size: 22px;
+    margin-left: auto;
+    font-family: "Audiowide", sans-serif;
+    
+}
+.fourth-flex {
+    background-color:white;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.Banner {
+    display: flex;
+    justify-content:space-around;
+    
+    padding: 50px;
+    width: 100%;
+    background-color: #3882f6;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    justify-content: space-evenly;
+    
+}
+.MainBanner-Text {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+
+
+}
+.SubBanner-Text {
+    font-size: 35px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.Button-Container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: space-evenly;
+    
+    
+}
+.Border {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-color: #eee;
+    margin-top: 24px;
+    margin-left: 24px;
+    padding: 12px 18px;
+    
+}
+.Border:hover {
+    background-color: green;
+    color: red;
+    opacity: 1;
+}
+.last-flex {
+    background: #1F2937;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text {
+    color:white;
+    font-size: 24px;
 }
